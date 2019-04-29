@@ -1,11 +1,11 @@
 $theme-name: 'core';
 
 // base colors
-$primary-color: #5c34a2;
-$primary-color-dark: #502d8d;
-$primary-color-darker: #45277a;
-$secondary-color: #60db97;
-$secondary-color-dark: #64a231;
+$primary-color: #000000;
+$primary-color-dark: #2f2f2f;
+$primary-color-darker: #d89400;
+$secondary-color: #b79043;
+$secondary-color-dark: #b79043;
 $tertiary-color: #ffaa07;
 $danger-color: #f13662;
 $blue-color: #3ab9fe;
@@ -14,7 +14,7 @@ $text-color: #333;
 $link-color: $primary-color;
 
 $gradient-color-1: $primary-color;
-$gradient-color-2: #7b5ab2;
+$gradient-color-2: #6b6a6b;
 
 // main
 $main-background-color: #fff;
@@ -42,12 +42,9 @@ $footer-text-color: #fff;
 // separator
 $separator-color: #e4e4e4;
 
-// background
-$pattern-background-image: $base-images-path + '/themes/' + $theme-name + '/background/bg-pattern.svg';
-
 // social icons
 $social-icons-background-color: #fff;
-$social-icons-icon-color: $primary-color;
+$social-icons-icon-color: $secondary-color;
 
 // logo
 $logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/logo.svg';
@@ -89,8 +86,8 @@ $modal-text-color: $text-color;
 $modal-link-color: $primary-color;
 
 // mobile menu
-$mobile-menu-background-color: $primary-color-darker;
-$mobile-menu-overlay-color: rgba($primary-color-darker, 0.9);
+$mobile-menu-background-color: rgba($primary-color-dark, 0.9);
+$mobile-menu-overlay-color: rgba($primary-color-dark, 0.8);
 
 // loading
 $loading-item-background-color: $secondary-color;
@@ -115,8 +112,6 @@ $bridge-side-image-height: 276px;
 $bridge-image-center-pointing-left: $base-images-path + '/themes/' + $theme-name + '/bridge/center-image-pointing-left.svg';
 $bridge-image-center-pointing-right: $base-images-path + '/themes/' + $theme-name + '/bridge/center-image-pointing-right.svg';
 $bridge-image-center-pointing-down: $base-images-path + '/themes/' + $theme-name + '/bridge/center-image-pointing-down@2x.png';
-$bridge-image-left: $base-images-path + '/themes/' + $theme-name + '/bridge/pattern-1.png';
-$bridge-image-right: $base-images-path + '/themes/' + $theme-name + '/bridge/pattern-2.png';
 $bridge-transfer-title-color: $primary-color;
 
 // bridge alert

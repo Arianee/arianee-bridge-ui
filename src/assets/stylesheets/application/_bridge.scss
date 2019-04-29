@@ -123,43 +123,6 @@
         @media screen and (max-width: $tablet-width) {
             height: 389px;
         }
-        .left-image-wrapper {
-            background-color: $bridge-gradient-start;
-            .left-image {
-                background-color: $main-background-color;
-                background-image: url('#{ $bridge-image-left }');
-                background-position: calc(100% - 5px) 5px;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-top-right-radius: 10px;
-                height: $bridge-side-image-height;
-                max-width: 100%;
-                width: $bridge-side-image-width;
-
-                @media screen and (max-width: $tablet-width) {
-                    display: none;
-                }
-            }
-        }
-
-        .right-image-wrapper {
-            background-color: $bridge-gradient-end;
-            .right-image {
-              background-color: $main-background-color;
-              background-image: url('#{ $bridge-image-right }');
-              background-position: 5px 5px;
-              background-repeat: no-repeat;
-              background-size: contain;
-              border-bottom-left-radius: 10px;
-              height: $bridge-side-image-height;
-              max-width: 100%;
-              width: $bridge-side-image-width;
-
-              @media screen and (max-width: $tablet-width) {
-                  display: none;
-              }
-            }
-        }
 
         .bridge-transfer-content {
             background-image: linear-gradient(to right, $bridge-gradient-start, $bridge-gradient-end);

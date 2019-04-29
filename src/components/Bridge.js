@@ -334,9 +334,6 @@ export class Bridge extends React.Component {
             reverse={reverse}
           />
           <div className="bridge-transfer">
-            <div className="left-image-wrapper">
-              <div className="left-image" />
-            </div>
             <div className="bridge-transfer-content">
               <div className="bridge-transfer-content-background">
                 <BridgeNetwork
@@ -365,9 +362,6 @@ export class Bridge extends React.Component {
                   side="right"
                 />
               </div>
-            </div>
-            <div className="right-image-wrapper">
-              <div className="right-image" />
             </div>
           </div>
           <BridgeAddress
