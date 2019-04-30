@@ -122,7 +122,7 @@ $copy-icon-color: $primary-color;
 
 // status section
 $status-text-color: $text-color;
-$status-authority-number-color: $primary-color;
+$status-authority-number-color: $secondary-color;
 $status-authority-address-color: $text-color;
 
 $status-authority-logo-0: $base-images-path + '/themes/' + $theme-name + '/status/authority/logo-0.svg';
@@ -130,8 +130,8 @@ $status-authority-logo-1: $base-images-path + '/themes/' + $theme-name + '/statu
 $status-authority-logo-2: $base-images-path + '/themes/' + $theme-name + '/status/authority/logo-2.svg';
 
 // datablock
-$datablock-value-color: $primary-color;
-$datablock-type-color: $primary-color;
+$datablock-value-color: $secondary-color;
+$datablock-type-color: $secondary-color;
 $datablock-text-color: $text-color;
 
 // statistics

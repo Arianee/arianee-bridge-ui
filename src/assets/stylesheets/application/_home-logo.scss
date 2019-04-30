@@ -5,6 +5,8 @@
     background-size: contain;
     height: $home-logo-height;
     width: $home-logo-width;
+    filter: grayscale(100%);
+    //TODO: delete filter after replacing image
 
     &.home-logo-modal {
         background-image: url('#{ $home-logo-image-modal }');

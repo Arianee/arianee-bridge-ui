@@ -534,6 +534,8 @@
                 margin-left: 42px;
                 margin-top: 39px;
                 width: 124px;
+                filter: grayscale(100%);
+                //TODO: delete filter after replacing image
             }
         }
         .alert-container {
@@ -773,6 +775,8 @@
             margin-left: 25px;
             margin-top: 44px;
             width: 117px;
+            filter: grayscale(100%);
+            //TODO: delete filter after replacing image
         }
     }
     .alert-container {
