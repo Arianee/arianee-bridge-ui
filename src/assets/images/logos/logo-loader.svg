@@ -6,15 +6,15 @@
 >
     <defs>
         <style type="text/css">
-            @import url('https://fonts.googleapis.com/css?family=Nunito:400');
+            @import url('https://fonts.googleapis.com/css?family=Raleway:400');
             text {
-                font-family: "Nunito", sans-serif;
+                font-family: "Raleway", sans-serif;
             }
         </style>
     </defs>
     <text
         fill="#fff"
-        font-family="Nunito"
+        font-family="Raleway"
         font-size="26.923px"
         font-weight="500"
         x="128.126px"

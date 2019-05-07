@@ -18,7 +18,7 @@ $gradient-color-2: #6b6a6b;
 
 // main
 $main-background-color: #fff;
-$main-font-family: 'Nunito', sans-serif;
+$main-font-family: 'Raleway', sans-serif;
 
 // header
 $header-background-color: $primary-color;
@@ -35,8 +35,8 @@ $daily-quota-progress: $secondary-color;
 
 // footer
 $footer-background-color: $primary-color;
-$footer-logo-width: 130px;
-$footer-logo-height: 18px;
+$footer-logo-width: 160px;
+$footer-logo-height: 23px;
 $footer-text-color: #fff;
 
 // separator
@@ -47,19 +47,20 @@ $social-icons-background-color: #fff;
 $social-icons-icon-color: $secondary-color;
 
 // logo
-$logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/logo.svg';
+$logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/arianee.png';
+$logo-image-text: $base-images-path + '/themes/' + $theme-name + '/logos/logo.svg';
 
 // home logo
-$home-logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/logo-home.png';
-$home-logo-image-modal: $base-images-path + '/themes/' + $theme-name + '/logos/logo-home-modal.png';
+$home-logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/aria.svg';
+$home-logo-image-modal: $base-images-path + '/themes/' + $theme-name + '/logos/aria-modal.svg';
 $home-logo-width: 52px;
 $home-logo-height: 16px;
 
 // foreign logo
-$foreign-logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/logo-foreign.svg';
-$foreign-logo-image-modal: $base-images-path + '/themes/' + $theme-name + '/logos/logo-foreign-modal.svg';
+$foreign-logo-image: $base-images-path + '/themes/' + $theme-name + '/logos/aria20.svg';
+$foreign-logo-image-modal: $base-images-path + '/themes/' + $theme-name + '/logos/aria20-modal.svg';
 $foreign-logo-width: 54px;
-$foreign-logo-height: 11px;
+$foreign-logo-height: 30px;
 
 // buttons
 $button-background-color: $secondary-color;

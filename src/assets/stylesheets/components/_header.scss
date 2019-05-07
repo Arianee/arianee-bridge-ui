@@ -23,9 +23,10 @@
   }
 
   &-logo {
-    background-image: url('#{ $logo-image }');
+    background-image: url('#{ $logo-image }'), url('#{ $logo-image-text }');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: top left, center right;
+    background-size: 50%, contain;
     display: block;
     height: $header-logo-height;
     width: $header-logo-width;

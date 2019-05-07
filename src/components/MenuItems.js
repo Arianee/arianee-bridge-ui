@@ -5,6 +5,12 @@ import { Link } from "react-router-dom"
 export const MenuItems = ({ onMenuToggle = null, withoutEvents }) => {
   const menuItems = [
     {
+      hide: false,
+      icon: false,
+      link: "/",
+      text: "How To"
+    },
+    {
       hide: withoutEvents,
       icon: <EventsIcon />,
       link: "/events",

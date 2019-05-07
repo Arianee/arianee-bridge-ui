@@ -36,7 +36,7 @@ export class ProgressRing extends Component {
           cx={ radius }
           cy={ radius }
         />
-        <text x="28" y="47" fontFamily="Nunito" fontSize="18" fill="white">
+        <text x="28" y="47" fontFamily="Raleway" fontSize="18" fill="white">
           {confirmations}
         </text>
       </svg>

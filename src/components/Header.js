@@ -19,7 +19,7 @@ export class Header  extends React.Component {
       <header className="header">
         {showMobileMenu ? <MobileMenu withoutEvents={withoutEvents} onMenuToggle={onMenuToggle} /> : null}
         <div className="container">
-          <Link to="/" onClick={showMobileMenu ? onMenuToggle : null} className="header-logo" />
+          <Link to="/" onClick={showMobileMenu ? onMenuToggle : null} className="header-logo"/>
           <HeaderMenu withoutEvents={withoutEvents} onMenuToggle={onMenuToggle} />
           <MobileMenuButton onMenuToggle={onMenuToggle} showMobileMenu={showMobileMenu} />
         </div>
